@@ -135,7 +135,7 @@ namespace Repackinator.Core.Console
                                 {
                                     System.Console.Write($"Stage {s + 1} of 3, Progress {amount}%");
                                 }
-                                    System.Console.CursorLeft = 0;
+                                System.Console.CursorLeft = 0;
                                 previousProgress = amount;
                             }
                         }, default);
